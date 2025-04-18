@@ -421,7 +421,6 @@ class MoodMovieRecommender:
             "streaming_info": streaming_info
         }
 
-
 if __name__ == "__main__":
     recommender = MoodMovieRecommender()
     results = recommender.run_full_workflow()
