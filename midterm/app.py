@@ -5,8 +5,8 @@ from MoodMovieRecommender import MoodMovieRecommender
 
 st.set_page_config(page_title="Mood-Based Movie Recommender", page_icon="🎬")
 
-st.title("🎬 Mood-Based Movie Recommender")
-st.write("Discover movies that match your taste and current mood!")
+st.title("🎬 CineMood")
+st.write("Mood-Based Movie Recommender (discover movies that match your taste and current mood!)")
 
 # Check for API keys
 import os
