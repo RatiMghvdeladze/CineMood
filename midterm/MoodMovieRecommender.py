@@ -1,6 +1,5 @@
 import os
 import json
-import random
 import openai
 import requests
 from dotenv import load_dotenv
@@ -9,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPEN_AI_MODEL = os.getenv("OPEN_AI_MODEL")
-TMDB_API_KEY = os.getenv("TMDB_API_KEY")  # Add this to your .env file
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 
 class MoodMovieRecommender:
